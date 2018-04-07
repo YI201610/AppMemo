@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:AppMemo/Domain/iTunes.dart';
 
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+
+    iTunes.executeTest();
 
     String appTitle = 'App Memo';
 
